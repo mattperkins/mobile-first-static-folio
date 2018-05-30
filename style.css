@@ -131,4 +131,7 @@ footer a{
         display: flex;
         justify-content: space-between;
     }
+    footer p{
+        flex: 2;
+    }
 }
