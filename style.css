@@ -22,7 +22,7 @@ img{
     width: 100px;
 }
 main, footer{
-    max-width: 400px;
+    max-width: 900px;
     width: 95%;
     margin: auto;
     box-shadow: 30px 0px 40px rgba(0,0,0,0.1),
@@ -30,7 +30,10 @@ main, footer{
 }
 
 
-
+#splash-text, #header h2{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
 
 #splash{
     background-color: #fff;
@@ -42,8 +45,6 @@ main, footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-right: 1rem;
-    padding-left: 1rem;
 }
 #splash-text h2{
     color: #888;
@@ -70,4 +71,14 @@ main, footer{
 }
 .btn:hover{
     background-color: #f4f4f4;
+}
+
+#header{
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+#header h2{
+    display: inline-block;
 }
