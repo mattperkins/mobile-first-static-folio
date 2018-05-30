@@ -134,4 +134,13 @@ footer a{
     footer p{
         flex: 2;
     }
+    #small-link{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    #large-link{
+        display: none;
+    }
 }
