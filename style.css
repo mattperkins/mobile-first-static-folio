@@ -3,7 +3,7 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
-h1,h2,h3,p,a, img{
+body, h1,h2,h3,p,a, img{
     margin: 0;
     padding: 0;
 }
@@ -12,7 +12,7 @@ h1{
     font-size: 2.5rem;
     text-transform: uppercase;
     line-height: 1;
-    margin-bottom: 1.8rem;
+    margin-bottom: .35rem;
 }
 h2{
     font-weight: 400;
@@ -30,12 +30,6 @@ main, footer{
     box-shadow: 30px 0px 40px rgba(0,0,0,0.1),
     -30px, 0px, 40px, rgba(0,0,0,0.1);
 }
-
-
-/* #splash-text, #header h2{
-    padding-right: 1rem;
-    padding-left: 1rem;
-} */
 
 #splash{
     background-color: #fff;
@@ -65,7 +59,7 @@ main, footer{
     padding: 0.5rem 2rem;
     border: 1px #ccc solid;
     display: inline-block;
-    margin: 2rem 0 0;
+    margin: 3rem 0 0;
     border-radius: 50px;
     text-decoration: none;
     color: #333;
@@ -75,19 +69,53 @@ main, footer{
     background-color: #f4f4f4;
 }
 
-#work{
-    margin-top: 3.5rem;
-    padding: 1.5rem;
+#posts{
+    margin-top: 5rem;
+    padding-bottom: .5rem;
     text-align: center;
 }
 #header h2{
     color: #333;
 }
 .caption{    
-    padding: .8rem 0;
-    line-height: 1.5;
-    margin-bottom: 3rem;
+    max-width: 640px;
+    margin: auto;
+    padding: 4rem 2rem;
+    line-height: 1.8;
 }
 .caption p{
-    line-height: 1.25;
+    line-height: 1.5;
+    font-size: .9rem;
+}
+
+
+
+
+footer{
+ border-radius: 6px solid #f4f4f4;
+ background-color:#f4f4f4;
+ color: #333;
+ text-align: center;   
+ padding: 4rem;
+ box-sizing: border-box;
+ line-height: 2.5rem;
+}
+footer a{
+    color: #333;
+}
+
+
+
+
+
+
+/* Screens 500px and up */
+@media (min-width: 500px){
+    #splash{
+        display: flex;
+        height: 100vh;
+    }
+    #splash-text, #splash-image{
+        height: 100vh;
+    }
 }
