@@ -113,9 +113,22 @@ footer a{
 @media (min-width: 500px){
     #splash{
         display: flex;
-        height: 100vh;
+        height: 100%;
     }
     #splash-text, #splash-image{
         height: 100vh;
+    }
+    #splash-text-inner{
+        margin-right: 5rem;
+    }
+    #splash-text-inner h1{
+            font-size: 4.5rem;       
+    }
+    #splash-text-inner h2{
+        margin-top: 2rem;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
     }
 }
