@@ -79,9 +79,15 @@ main, footer{
     margin-top: 3.5rem;
     padding: 1.5rem;
     text-align: center;
-    background-color: #333;
-    color: #fff;
 }
 #header h2{
-    display: inline-block;
+    color: #333;
+}
+.caption{    
+    padding: .8rem 0;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+.caption p{
+    line-height: 1.25;
 }
