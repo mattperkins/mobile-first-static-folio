@@ -3,7 +3,7 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
-h1,h2,p,a, img{
+h1,h2,h3,p,a, img{
     margin: 0;
     padding: 0;
 }
@@ -32,10 +32,10 @@ main, footer{
 }
 
 
-#splash-text, #header h2{
+/* #splash-text, #header h2{
     padding-right: 1rem;
     padding-left: 1rem;
-}
+} */
 
 #splash{
     background-color: #fff;
