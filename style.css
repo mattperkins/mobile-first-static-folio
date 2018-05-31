@@ -98,11 +98,14 @@ footer{
     text-align: center;   
     padding: 4rem;
     box-sizing: border-box;
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 footer h3{
     font-size: 2rem;      
-    padding-bottom: .6rem; 
+    padding-bottom: 1.3rem; 
+}
+footer p{
+    padding-bottom: 1rem;
 }
 footer a{
     color: #333;
@@ -135,14 +138,22 @@ footer a{
         display: flex;
         justify-content: space-between;
     }
-    footer p{
-        flex: 2;
+    footer h3{
+        margin-top: .4rem;
     }
+    footer p{
+        flex: 1;
+        padding: 0 50px;
+    }
+
+    /* adding and removing email contact link */
     #small-link{
         display: none;
     }
+    /* pull link left  */
     #large-link a{
-        margin-left: -160px;
+        margin-left: -230px;
+        font-size: .9rem;
     }
 }
 
