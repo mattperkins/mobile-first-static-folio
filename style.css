@@ -145,20 +145,4 @@ footer a{
         flex: 1;
         padding: 0 50px;
     }
-
-    /* adding and removing email contact link */
-    #small-link{
-        display: none;
-    }
-    /* pull link left  */
-    #large-link a{
-        margin-left: -230px;
-        font-size: .9rem;
-    }
-}
-
-@media (max-width: 500px){
-    #large-link{
-        display: none;
-    }
 }
